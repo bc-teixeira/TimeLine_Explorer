@@ -25,19 +25,17 @@ The timeline explorer is a shiny app that allows quick visualisation of the time
 1. This code loads an events dataset and identifies the first occurrence of each event for every patient. It filters out patients who had a “Diagnosis” event after any other event, as identified by comparing dates. The filtered patient IDs are then removed from both events and chemodetails datasets, retaining only relevant records.
 2. The R shiny code provides an interactive timeline visualization for exploring event-based data across selected categories. Users can choose an event to view timelines displayed as heatmaps, which show the frequency and distribution of events over time relative to a reference date. Two plots offer insights into different aspects of the data, with visual markers for median timing and annotations indicating the number of occurrences. This tool is designed to help users easily track trends and patterns in the timeline data.
 
-**Navigating the time line explorer**
+**Navigating the timeline explorer**
 
 1. After running the R Shiny app code, the window appears as shown in the snippet below
+![Timeline Explorer App](https://github.com/bc-teixeira/TimeLine_Explorer/blob/main/DOC/Plot_1.png?raw=true)
 
-       DOC/Plot_1.png
+3. Select the event from the drop down box to get the timeline explorer plot for the specific event
+![Select Event](https://github.com/bc-teixeira/TimeLine_Explorer/blob/main/DOC/Plot_2.png?raw=true)
 
-2. Select the event from the drop down box to get the timeline explorer plot for the specific event
-
-        DOC/Plot_2.png
-
-3. We can zoom the required portion of the plot for better visualization.
+4. We can zoom the required portion of the plot for better visualization.
    Red portion in the plot represents the maximum number of patients had the event at that timepoint
-   
-        DOC/Plot_3.png
+![Zoom-in](https://github.com/bc-teixeira/TimeLine_Explorer/blob/main/DOC/Plot_3.png?raw=true)
+
 
    
