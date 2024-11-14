@@ -29,15 +29,15 @@ The timeline explorer is a shiny app that allows quick visualisation of the time
 
 1. After running the R Shiny app code, the window appears as shown in the snippet below
 
-       DOC/Plot 1.png
+       DOC/Plot_1.png
 
 2. Select the event from the drop down box to get the timeline explorer plot for the specific event
 
-        DOC/Plot 2.png
+        DOC/Plot_2.png
 
 3. We can zoom the required portion of the plot for better visualization.
    Red portion in the plot represents the maximum number of patients had the event at that timepoint
    
-        DOC/Plot 3.png
+        DOC/Plot_3.png
 
    
