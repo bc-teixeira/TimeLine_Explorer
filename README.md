@@ -66,9 +66,7 @@ To generate the data for the timeline visualization:
  
    2.	**Rules for Data Preparation**
  
-        •	Each patient should have only one date per event type.
- 
-        •	If multiple dates exist for the same event, use the earliest date.
+        •	If multiple dates exist for the same event, the first of them will be selected for the index, others will be shown in the plot.
  
 
 ### Generating the Timeline Explorer
