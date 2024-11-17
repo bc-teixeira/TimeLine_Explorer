@@ -42,7 +42,7 @@ chemodetails <- chemodetails %>%
 ui <- fluidPage(
   
   # Title for the Shiny app
-  titlePanel("MDV Gastric Cancer Timeline Navigator"),
+  titlePanel("Timeline Explorer"),
   
   # Tab panel for event selection and visualization
   tabPanel("By Event", 
